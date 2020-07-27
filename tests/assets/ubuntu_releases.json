@@ -1,0 +1,44 @@
+{
+    "data": {
+        "releases": {
+            "precise": {
+                "full_name": "Precise Pangolin",
+                "version": "12.04",
+                "is_lts": true,
+                "esm_repo_url": "https://esm.ubuntu.com/ubuntu/dists/precise/"
+            },
+            "trusty": {
+                "full_name": "Trusty Tahr",
+                "version": "14.04",
+                "is_lts": true,
+                "esm_infra_repo_url": "https://esm.ubuntu.com/ubuntu/dists/trusty-infra-security/"
+            },
+            "xenial": {
+                "full_name": "Xenial Xerus",
+                "version": "16.04",
+                "is_lts": true,
+                "esm_infra_repo_url": "https://esm.ubuntu.com/ubuntu/dists/xenial-infra-security/",
+                "esm_apps_repo_url": "https://esm.ubuntu.com/ubuntu/dists/xenial-apps-security/"
+            },
+            "bionic": {
+                "full_name": "Bionic Beaver",
+                "version": "18.04",
+                "is_lts": true,
+                "esm_apps_repo_url": "https://esm.ubuntu.com/ubuntu/dists/bionic-apps-security/"
+            },
+            "focal": {
+                "full_name": "Focal Fossa",
+                "version": "20.04",
+                "is_lts": true,
+                "esm_apps_repo_url": "https://esm.ubuntu.com/ubuntu/dists/focal-apps-security/"
+            },
+            "groovy": {
+                "full_name": "Groovy Gorilla",
+                "version": "20.10",
+                "is_lts": false,
+                "is_devel": true
+            }
+        }
+    },
+    "metadata": {}
+}
